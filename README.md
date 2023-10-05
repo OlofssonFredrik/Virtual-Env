@@ -1,4 +1,4 @@
-# Setting Up and Using Virtual Environments with Python and GitHub
+# Setting Up and Using Virtual Environments with Python, VS Code and Windows(Powershell terminal)
 When working with Python projects, it's often recommended to create a virtual environment to manage dependencies and ensure consistency across different systems. Follow the steps below to create and manage a virtual environment for your project.
 
 ## Creating a Virtual Environment In your terminal or command prompt, navigate to your project's root directory and run the following command:
