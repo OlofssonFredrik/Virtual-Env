@@ -1,7 +1,7 @@
 # Setting Up and Using Virtual Environments with Python and GitHub When working with Python projects, it's often recommended to create a virtual environment to manage dependencies and ensure consistency across different systems. Follow the steps below to create and manage a virtual environment for your project.
 
 ## Creating a Virtual Environment In your terminal or command prompt, navigate to your project's root directory and run the following command:
-sh Copy code python -m venv [environment_name] Replace [environment_name] with your desired environment name, for instance, "stat-env".
+python -m venv [environment_name] Replace [environment_name] with your desired environment name, for instance, "stat-env".
 
 ## Example:
 
