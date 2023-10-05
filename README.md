@@ -17,13 +17,13 @@ To activate do: .\stat-env\Scripts\Activate and you will see that you are inside
 
 ### Option A: Temporarily Bypass the Execution Policy Allow the script to run in the current PowerShell session only:
 
-PowerShell Copy code Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process Then, run the activate script again.
+Copy and Paste into powershell: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process Then, run the activate script again.
 
 ### Option B: Change the Execution Policy for the Current User Allow local scripts to run for your user profile while maintaining the restriction against running remote scripts:
 
-PowerShell Copy code Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser You will only need to do this once per user. Remember, it's a good practice to understand the risks of modifying execution policies. Always ensure scripts are from a trusted source before executing them.
+Copy and Paste into powershell: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser You will only need to do this once per user. Remember, it's a good practice to understand the risks of modifying execution policies. Always ensure scripts are from a trusted source before executing them.
 
-Deactivating the Virtual Environment To exit the virtual environment and use your global Python configuration again, simply type:
-sh Copy code deactivate Final Notes Always remember to activate the virtual environment before running your project and deactivate it when you're done. Virtual environments help you manage project dependencies and keep your global Python environment clean and organized.
+Deactivating the Virtual Environment To exit the virtual environment and use your global Python configuration again, simply type: deactivate
+Always remember to activate the virtual environment before running your project and deactivate it when you're done. Virtual environments help you manage project dependencies and keep your global Python environment clean and organized.
 
 For additional details and best practices about virtual environments, visit the Python venv documentation.
