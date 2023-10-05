@@ -8,7 +8,7 @@ To activate do: \Environment\Scripts\Activate and you will see that you are insi
 
 This will however raise a flag that powershell is not allowed to perform such scripts. 
 
-In order to allow temporary you can run: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+In order to allow temporary in this powershell window you can run: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 If you want to permanety allow run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
