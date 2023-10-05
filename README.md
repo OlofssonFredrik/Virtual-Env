@@ -17,7 +17,8 @@ To activate do: .\stat-env\Scripts\Activate and you will see that you are inside
 
 ### Option A: Temporarily Bypass the Execution Policy Allow the script to run in the current PowerShell session only:
 
-Copy and Paste into powershell: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process 
+Copy and Paste into powershell: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
 Then, run the activate script again.
 
 ### Option B: Change the Execution Policy for the Current User Allow local scripts to run for your user profile while maintaining the restriction against running remote scripts:
