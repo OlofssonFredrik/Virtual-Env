@@ -13,9 +13,7 @@ To activate do: .\stat-env\Scripts\Activate and you will see that you are inside
 
 ![image](https://github.com/OlofssonFredrik/Virtual-Env/assets/107762409/d4700160-f16c-4508-91d2-8e4b4aa6fc56)
 
-Windows (PowerShell):
-
-PowerShell Copy code .\stat-env\Scripts\Activate Note: If you encounter a PowerShell security error about scripts, follow the instructions in the PowerShell Script Execution Policies section below.
+## Note: If you encounter a PowerShell security error about scripts, follow the instructions in the PowerShell Script Execution Policies section below.
 
 ### Option A: Temporarily Bypass the Execution Policy Allow the script to run in the current PowerShell session only:
 
