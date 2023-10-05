@@ -1,4 +1,4 @@
-python -m venv "the name of the environment" for example "Environment"
+python -m venv "the name of the environment" for example "stat-env"
 
 Do this command inside your project at the root.
 
