@@ -7,7 +7,7 @@ python -m venv [environment_name]
 Replace [environment_name] with your desired environment name, for instance, "stat-env".
 
 ## Example:
-
+py -3.9 -m venv testar-env
 python -m venv stat-env
 
 Do this command inside your project at the root.
